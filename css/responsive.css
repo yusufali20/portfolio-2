@@ -111,6 +111,9 @@
     /* ========about end========= */
     
     /* ========feature start========= */
+    #feature{
+        padding-bottom: 35px;
+    }
     #feature .container {
         padding: 50px 0 0 0;
     }
@@ -120,55 +123,64 @@
     #feature .container .heading {
         padding: 0px 0 10px 0;
     }
-    #feature .container .row .button button {
+    #feature .container .button button {
         margin-left: 10px;
         padding: 17px 0;
     }
-    #feature .container .row .button button .text {
+    #feature .container .button button .text {
         margin-left: 40px;
     }
-    #feature .container .row .button button .text h2 {
+    #feature .container .button button .text h2 {
         font-size: 16px;
         margin-bottom: 7px;
     }
-    #feature .container .row .button button .text span {
+    #feature .container .button button .text span {
         font-size: 13px;
     }
-    #feature .container .row .button button i {
+    #feature .container .button button i {
         font-size: 30px;
     }
-    #feature .container .row .button button .line {
-        margin-top: 34px;
+    #feature .container .button button .line {
+        margin-top: 25px;
         width: 250px;
     }
-    #feature .container .row .button .active .line{
-        width: 300px !important;
+    #feature .container .button .active .line{
+        width: 285px !important;
     }
-    #feature .container .row .col-lg-8 .image_text{
+    #feature .container .image_text{
         display: flex;
         flex-direction: column;
         margin-left: 0px;
         align-items: center;
     }
-    #feature .container .row .col-lg-8 .image_text .text {
-        margin-top: 40px;
+    #feature .container .image_text .text {
+        margin-top: 15px;
         padding-left: 20px;
         margin-right: 10px;
+        margin-bottom: 30px;
     }
-    #feature .container .row .content {
-        padding-bottom: 50px;
+    #feature .container .content {
+        padding-bottom: 6px;
+        padding-top: 0;
     }
-    #feature .container .row .content h3 {
+    #feature .container .content h3 {
         font-size: 17px;
         margin-bottom: 14px;
     }
-    #feature .container .row .content p {
+    #feature .container .content p {
         margin-top: 14px;
         line-height: 20px;
         text-align: justify;
     }
-    #feature .container .row .content span {
+    #feature .container .content span {
         margin-top: 10px;
+    }
+
+    .sm_device_visible .image_text .img img{
+        display: none;
+    }
+    .sm_no_visible{
+        display: none;
     }
     /* ========feature end========= */
 
@@ -249,6 +261,10 @@
     }
     #team .container .col-lg-4 .item .img img{
         width: 100%;
+    }
+
+    #team .container .col-lg-4 .item:hover{
+        display: none;
     }
     /* ========team end========= */
     
@@ -437,6 +453,9 @@
     /* ========about end========= */
     
     /* ========feature start========= */
+    #feature{
+        padding-bottom: 60px;
+    }
     #feature .container {
         padding: 60px 0 0 0;
     }
@@ -446,57 +465,61 @@
     #feature .container .heading {
         padding: 5px 0 10px 0;
     }
-    #feature .container .row .button button {
+    #feature .container .button button {
         margin-left: 20px;
         padding: 20px 0;
     }
-    #feature .container .row .button button .text {
+    #feature .container .button button .text {
         margin-left: 48px;
     }
-    #feature .container .row .button button .text h2 {
+    #feature .container .button button .text h2 {
         font-size: 20px;
         margin-bottom: 12px;
     }
-    #feature .container .row .button button .text span {
+    #feature .container .button button .text span {
         font-size: 16px;
     }
-    #feature .container .row .button button i {
+    #feature .container .button button i {
         font-size: 37px;
     }
-    #feature .container .row .button button .line {
+    #feature .container .button button .line {
         margin-top: 32px;
         width: 270px;
     }
-    #feature .container .row .button .active .line {
-        width: 330px !important;
+    #feature .container .button .active .line{
+        width: 330px;
     }
-    #feature .container .row .col-lg-8 .image_text{
+    #feature .container .image_text{
         margin-left: 0px;
         align-items: center;
     }
-    #feature .container .row .col-lg-8 .image_text .img img {
+    #feature .container .image_text .img img {
         width: 530%;
     }
-    #feature .container .row .col-lg-8 .image_text .text {
+    #feature .container .image_text .text {
         margin-top: 0px;
         padding-left: 221px;
         margin-right: 10px;
     }
-    #feature .container .row .content {
-        padding-bottom: 50px;
+    #feature .container .content {
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
-    #feature .container .row .content h3 {
+    #feature .container .content h3 {
         font-size: 21px;
         margin-bottom: 15px;
     }
-    #feature .container .row .content p {
+    #feature .container .content p {
         margin-top: 15px;
         line-height: 21px;
         text-align: justify;
         font-size: 15px;
     }
-    #feature .container .row .content span {
+    #feature .container .content span {
         margin-top: 10px;
+    }
+    .sm_no_visible{
+        display: none;
     }
     /* ========feature end========= */
     
@@ -582,6 +605,10 @@
     }
     #team .container .col-lg-4 .item .img img{
         width: 100%;
+    }
+
+    #team .container .col-lg-4 .item:hover{
+        display: none;
     }
     /* ========team end========= */
     
@@ -797,6 +824,9 @@
     /* ========about end========= */
     
     /* ========feature start========= */
+    #feature{
+        padding-bottom: 65px;
+    }
     #feature .container {
         padding: 60px 0 0 0;
     }
@@ -806,58 +836,69 @@
     #feature .container .heading {
         padding: 5px 0 10px 0;
     }
-    #feature .container .row .button button {
+    #feature .containerw .button button {
         margin-left: 20px;
         padding: 20px 0;
     }
-    #feature .container .row .button button .text {
+    #feature .container .button button .text {
         margin-left: 48px;
     }
-    #feature .container .row .button button .text h2 {
+    #feature .container .button button .text h2 {
         font-size: 20px;
         margin-bottom: 12px;
     }
-    #feature .container .row .button button .text span {
+    #feature .container .button button .text span {
         font-size: 16px;
     }
-    #feature .container .row .button button i {
+    #feature .container .button button i {
         font-size: 37px;
     }
-    #feature .container .row .button button .line {
+    #feature .container .button button .line {
         margin-top: 32px;
         width: 270px;
     }
-    #feature .container .row .button .active .line {
+    #feature .container .button .active .line {
         width: 330px !important;
     }
-    #feature .container .row .col-lg-8 .image_text{
+    #feature .container .button .active .image_text{
+        padding-bottom: 30px !important;
+    }
+    #feature .container .col-lg-8 .image_text{
         margin-left: 0px;
         align-items: center;
     }
-    #feature .container .row .col-lg-8 .image_text .img img {
+    #feature .container .col-lg-8 .image_text .img img {
         width: 440%;
     }
-    #feature .container .row .col-lg-8 .image_text .text {
+    #feature .container .col-lg-8 .image_text .text {
         margin-top: -50px;
         padding-left: 30px;
         margin-left: 200px;
         margin-right: 11px;
     }
-    #feature .container .row .content {
-        padding-bottom: 50px;
+    #feature .container .content {
+        padding-bottom: 18px;
+        padding-top: 17px;
     }
-    #feature .container .row .content h3 {
+    #feature .container .content h3 {
         font-size: 21px;
         margin-bottom: 15px;
     }
-    #feature .container .row .content p {
+    #feature .container .content p {
         margin-top: 16px;
         line-height: 21px;
         text-align: justify;
         font-size: 16px;
     }
-    #feature .container .row .content span {
+    #feature .container .content span {
         margin-top: 17px;
+    }
+    #feature .container .content {
+        padding-top: 17px;
+        padding-bottom: 18px;
+    }
+    .sm_no_visible{
+        display: none;
     }
     /* ========feature end========= */
     
@@ -1062,12 +1103,15 @@
     /* ========banner end========= */
     
     /* ========feature start========= */
-    #feature .container .row .col-lg-8 .image_text .text {
+    #feature .container .image_text .text {
         margin-top: 70px;
         padding-left: 30px;
     }
-    #feature .container .row .col-lg-8 .image_text .text p{
+    #feature .container .row .image_text .text p{
         text-align: justify;
+    }
+    .no_visible{
+        display: none;
     }
     /* ========feature end========= */
 
@@ -1094,11 +1138,24 @@
     /* ========team end========= */
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1399.99px) {
     /* ========banner start========= */
     #banner_slider .slick-dots {
         right: 15px;
         display: block;
     }
+    .no_visible{
+        display: none;
+    }
+    
     /* ========banner end========= */
+}
+
+@media (min-width: 1400px){
+    /* ========feature start========= */
+    .no_visible{
+        display: none;
+    }
+    
+    /* ========feature end========= */
 }

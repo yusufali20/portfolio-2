@@ -298,12 +298,12 @@ common css end
 #feature .container span{
     display: block;
 }
-#feature .container .row .button button {
+#feature .container .button button {
     text-align: left;
     padding: 15px 0;
     position: relative;
 }
-#feature .container .row .button button i {
+#feature .container .button button i {
     position: absolute;
     top: 37%;
     left: 0;
@@ -311,16 +311,16 @@ common css end
     font-size: 40px;
     color: #353535;
 }
-#feature .container .row .button button .line{
+#feature .container .button button .line{
     width: 270px;
     height: 1px;
     background-color: #353535;
     margin-top: 35px;
 }
-#feature .container .row .button button .text{
+#feature .container .button button .text{
     margin-left: 50px;
 }
-#feature .container .row .button button .text h2 {
+#feature .container .button button .text h2 {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -328,46 +328,46 @@ common css end
     margin-bottom: 10px;
     color: #353535;
 }
-#feature .container .row .button button .text span{
+#feature .container .button button .text span{
     font-size: 14px;
     font-family: 'Open-sans', sans-serif;
     font-weight: 400;
     color: #555555;
 }
-#feature .container .row .button .active{
+#feature .container .button .active{
     background-color: transparent;
     color: #744fa0;
 }
-#feature .container .row .button .active .line{
+#feature .container .button .active .line{
     background-color: #744fa0 !important;
-    width: 370px !important;
+    width: 370px;
 }
-#feature .container .row .button .active .text h2{
+#feature .container .button .active .text h2{
     color: #744fa0;
 }
-#feature .container .row .button .active .text span{
+#feature .container .button .active .text span{
     color: #744fa0;
 }
-#feature .container .row .button .active i{
+#feature .container .button .active i{
     color: #744fa0;
 }
-#feature .container .row .col-lg-8 .image_text{
+#feature .container .image_text{
     display: flex;
     margin-left: 55px;
 }
-#feature .container .row .col-lg-8 .image_text .img img{
+#feature .container .image_text .img img{
     height: 100%;
 }
-#feature .container .row .col-lg-8 .image_text .text {
+#feature .container .image_text .text {
     margin-top: 70px;
     padding-left: 60px;
 }
-#feature .container .row .content {
+#feature .container .content {
     text-align: right;
     padding-top: 25px;
     padding-bottom: 90px;
 }
-#feature .container .row .content h3{
+#feature .container .content h3{
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -375,7 +375,7 @@ common css end
     margin-bottom: 25px;
     color: #555555;
 }
-#feature .container .row .content p {
+#feature .container .content p {
     margin-top: 20px;
     font-size: 14px;
     font-family: 'Open-sans', sans-serif;
@@ -383,7 +383,7 @@ common css end
     color: #555555;
     line-height: 23px;
 }
-#feature .container .row .content span{
+#feature .container .content span{
     margin-top: 20px;
 }
 
@@ -706,6 +706,15 @@ team css start
     margin-top: 60px;
     padding: 44px 0;
     z-index: 1;
+}
+#feedback::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #feedback .container .feedback_bg::after{
     position: absolute;
