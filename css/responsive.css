@@ -825,7 +825,7 @@
     
     /* ========feature start========= */
     #feature{
-        padding-bottom: 65px;
+        padding-bottom: 60px;
     }
     #feature .container {
         padding: 60px 0 0 0;
@@ -858,44 +858,53 @@
         width: 270px;
     }
     #feature .container .button .active .line {
-        width: 330px !important;
+        width: 340px !important;
     }
     #feature .container .button .active .image_text{
         padding-bottom: 30px !important;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    #feature .container .col-lg-8 .image_text{
+    #feature .container .image_text{
         margin-left: 0px;
         align-items: center;
     }
-    #feature .container .col-lg-8 .image_text .img img {
-        width: 440%;
+    .abcd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    #feature .container .col-lg-8 .image_text .text {
-        margin-top: -50px;
-        padding-left: 30px;
-        margin-left: 200px;
-        margin-right: 11px;
+    #feature .container .image_text .img img {
+        width: 250%;
+    }
+    #feature .container .image_text .text {
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-left: 140px;
+        margin-right: 0px;
     }
     #feature .container .content {
         padding-bottom: 18px;
         padding-top: 17px;
     }
     #feature .container .content h3 {
-        font-size: 21px;
+        font-size: 18px;
         margin-bottom: 15px;
     }
     #feature .container .content p {
         margin-top: 16px;
-        line-height: 21px;
+        line-height: 20px;
         text-align: justify;
-        font-size: 16px;
+        font-size: 15px;
     }
     #feature .container .content span {
         margin-top: 17px;
     }
     #feature .container .content {
-        padding-top: 17px;
-        padding-bottom: 18px;
+        padding-top: 7px;
+        padding-bottom: 8px;
     }
     .sm_no_visible{
         display: none;
